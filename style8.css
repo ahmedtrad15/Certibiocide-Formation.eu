@@ -15,8 +15,13 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        html,body{
+            max-width: 100%;
+    overflow-x: hidden;}
         
         body {
+            max-width: 100%;
             font-family: 'Open Sans', sans-serif;
             line-height: 1.6;
             color: #333;
@@ -258,7 +263,7 @@
         /* Program Section */
         .program-steps {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 30px;
             margin-top: 50px;
         }
